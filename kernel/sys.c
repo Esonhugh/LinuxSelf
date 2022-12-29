@@ -2803,7 +2803,7 @@ struct prcs_info {
 SYSCALL_DEFINE2(esoncall, struct prcs_info __user *, pf, pid_t, pid) 
 {
 	printk(KERN_INFO"esoncall(): stu number = 20051719");
-	printk(KERN_INFO"Syscall Init")
+	printk(KERN_INFO"Syscall Init");
 	struct prcs_info pif;
 	if (!pf || pid < 0) {
 		printk(KERN_ALERT"esoncall(): Invalid argument\n");
